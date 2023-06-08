@@ -34,7 +34,6 @@ print_items(10)
 # a lot less efficent from a time complexity stand point
 
 
-'''
 
 
 #drop non dominants
@@ -48,3 +47,24 @@ def print_items(n):
 
 
 print_items(10)
+
+
+# this would be n^2 + n but if the number would get huge, you can drop n because of the rate it grows
+
+
+
+
+#O(1) only one operation, constant time
+
+def add_items(n):
+	return n + n
+
+add_items(10)
+'''
+
+
+my_list = [11, 3, 23, 7]
+
+my_list.append(17)
+
+# on lest if you pop or append to end, its O(1) but anything to beginning in terms of adding/removing its O(n)
